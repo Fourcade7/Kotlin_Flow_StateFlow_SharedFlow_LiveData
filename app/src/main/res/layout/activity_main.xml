@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="livedata"
+        android:id="@+id/buttonlivedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:text="state flow"
+        android:id="@+id/buttonstateflow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:text="Shared Flow"
+        android:id="@+id/buttonsharedflow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:text="Flow"
+        android:id="@+id/buttonflow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
